@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    position: absolute;
     width: 1350px;
     height: 94px;
     background-color: #562EFF;
@@ -22,7 +23,7 @@ header {
 .idea-logo img {
     width: 40.42px;
     height: 51px;
-    margin-left: 140px;
+    margin-left: 200px;
     margin-top: 26px;
     margin-right: 15.58px;
 }
@@ -54,7 +55,7 @@ span {
 .i-img {
     width: 51px;
     height: 51px;
-    margin-right: 289px;
+    margin-right: 215px;
     margin-top: 23px;
 }
 
