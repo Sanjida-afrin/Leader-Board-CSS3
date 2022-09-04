@@ -6,13 +6,13 @@ body {
 }
 
 header {
-    position: absolute;
     width: 1350px;
     height: 94px;
     background-color: #562EFF;
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
+text-align: center;
 }
 
 .info {
@@ -28,18 +28,14 @@ header {
     margin-right: 15.58px;
 }
 
-.idea-logo {
+.idea-logo,.idea-about {
     display: flex;
+  position: relative;
 }
 
 .idea {
     margin-top: 33px;
 }
-
-.idea-about {
-    display: flex;
-}
-
 .idea-info {
     margin-top: 35px;
 }
