@@ -6,53 +6,41 @@ body {
 }
 
 header {
-    width: 1440px;
-    height: 94px;
     background-color: #562EFF;
+    width: 100%;
+    height: 94px;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    color: #FFFFFF;
-text-align: center;
 }
 
-.info {
-    margin-right: 36px;
-    text-align: center;
+.left {
+    display: flex;
+    margin-left: 205px;
 }
 
-.idea-logo img {
+.left,
+img {
     width: 40.42px;
     height: 51px;
-    margin-left: 170px;
-    margin-top: 26px;
-    margin-right: 15.58px;
+    margin-top: 13px;
 }
 
-.idea-logo,.idea-about {
-    display: flex;
-  position: relative;
-}
-
-.idea {
-    margin-top: 33px;
-}
-.idea-info {
-    margin-top: 35px;
-}
-
-span {
-    margin-right: 36px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.i-img {
+.right img {
     width: 51px;
     height: 51px;
-    margin-right: 340px;
-    margin-top: 23px;
+    margin-right: 200px;
+    padding-bottom: 12px;
+    /* margin-top: 23px; */
+}
+
+nav a {
+    text-decoration: none;
+    color:
+        #FFFFFF;
+    margin-right: 36px;
 }
 
 main {
