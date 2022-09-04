@@ -11,29 +11,42 @@ header {
     height: 94px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
+.logo {
 
-.left {
     display: flex;
-    margin-left: 205px;
+    justify-content: center;
 }
 
 .left,
-img {
-    width: 40.42px;
-    height: 51px;
-    margin-top: 13px;
+.right {
+    display: flex;
 }
 
-.right img {
+.left img {
+    width: 40.42px;
+    height: 51px;
+    margin-top: 23px;
+}
+
+.left h2 {
+    margin-left: 15px;
+    margin-top: 29px;
+    color: white;
+}
+
+.right {
+    margin-left: 530px;
+}
+
+.right span img {
     width: 51px;
     height: 51px;
-    margin-right: 200px;
     padding-bottom: 12px;
-    /* margin-top: 23px; */
+    margin-top: 23px;
+}
+
+nav {
+    margin-top: 36px;
 }
 
 nav a {
